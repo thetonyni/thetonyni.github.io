@@ -1,6 +1,3 @@
-<!-- This is where you add WHAT exactly will show up in 
-  the personal web page (it is only one page, at the moment)-->
-  
 {% include header.html %}
 
 {% if site.layout == 'stacked' %}
@@ -15,6 +12,13 @@
       {% include projects.html %}
     </div>
 
+
+    {% if site.works %}
+      <div class="my-6">
+        {% include works.html %}
+      </div>
+    {% endif %}
+    
     {% if site.topics %}
       <div class="my-6">
         {% include interests.html %}
@@ -30,12 +34,6 @@
     {% if site.papers %}
       <div class="my-6">
         {% include papers.html %}
-      </div>
-    {% endif %}
-
-    {% if site.works %}
-      <div class="my-6">
-        {% include works.html %}
       </div>
     {% endif %}
 
