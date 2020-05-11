@@ -26,7 +26,7 @@ projects:
     archived: true
     forks: false
     projects:
-    # - repo-name
+      - amawest.github.io
 
 social_media:
   facebook: amanda.west.148553
