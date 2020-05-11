@@ -1,5 +1,6 @@
 ---
 ---
+@import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
 
 
@@ -8,19 +9,12 @@
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
 }
 
-// root/default variables
-:root {
-  --font-color: rgb(213, 24, 24);
-  --link-color:#1C75B9;
-  --link-white-color:#fff;
-  --bg-color: rgb(243,243,243);
+body.light-mode .about-area {
+  background: black;
 }
-//dark theme
-[data-theme="light"] {
-  --font-color: #c1bfbd;
-  --link-color:#0a86da;
-  --link-white-color:#c1bfbd;
-  --bg-color: rgb(211, 64, 64);
+
+body.light-mode p {
+  color: black;
 }
 
 .repo-language-color {
