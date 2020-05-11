@@ -25,7 +25,31 @@ body {
 .text--alpha {
 	color: var(--color-alpha);
 }
-
+@media (prefers-color-scheme: light) {
+	:root {
+		--background-color: #111;
+		--page-background: #212121;
+		--text-color: #ededed;
+		--color-alpha: #50a8d8;
+  }
+}
+:root {
+	…
+	--page-shadow: 0 0 12px 6px rgba
+	(0,0,0,0.05);
+}
+@media (prefers-color-scheme: light) {
+	:root {
+		…
+		--page-shadow: 
+			0 0 12px 6px rgba(0,0,0,0.33)
+		;
+	}
+}
+.content-container {
+	…
+	box-shadow: var(--page-shadow);
+}
 .repo-language-color {
     filter: brightness(125%) !important;
     border-radius: 50%;
