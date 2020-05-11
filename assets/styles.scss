@@ -15,6 +15,16 @@
 	--text-color: #e1a7c2; 
 	--color-alpha: #c3423f;
 }
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+.content-container {
+	background-color: var(--page-background);
+}
+.text--alpha {
+	color: var(--color-alpha);
+}
 
 .repo-language-color {
     filter: brightness(125%) !important;
