@@ -56,10 +56,6 @@ topics:
     web_url: https://github.com/topics/jekyll
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/jekyll/jekyll.png
 
-  - name: Stata
-    web_url: https://github.com/topics/stata
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/stata/stata.png
-
 
 social_media:
   facebook: amanda.west.148553
