@@ -1,5 +1,6 @@
 ---
 ---
+@import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
 
 
@@ -16,8 +17,6 @@
     position: relative;
     top: 2px;
     width: 12px;
-    color: #c78fa9;
-    border-left: 2px solid #e1a7c2; 
 }
 
 .emoji {
