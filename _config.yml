@@ -30,6 +30,22 @@ projects:
       - VisualizingTheFuture2
       - VisualizingtheFuture.github.io
 
+works:
+  - name: SONY
+    position: Part-time Machine Learning Researcher
+    period: 2018/11 - Present
+
+  - name: GHELIA
+    position: Part-time Machine Learning Researcher
+    period: 2018/04 - Present
+
+  - name: Wantedly
+    position: Part-time Web Engineer (full stack) & Machine Learning Engineer
+    period: 2016/03 - 2018/03
+
+  - name: MatchinGood
+    position: Part-time Web Engineer (full stack)
+    period: 2014/10 - 2016/03
 
 topics:
 
