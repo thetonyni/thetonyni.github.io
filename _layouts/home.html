@@ -14,6 +14,12 @@
     </div>
   {% endif %}
 
+    {% if site.topics %}
+      <div class="my-6">
+        {% include interests.html %}
+      </div>
+    {% endif %}
+
     {% if site.works %}
       <div class="my-6">
         {% include works.html %}
@@ -29,12 +35,6 @@
     <div class="my-6">
       {% include projects.html %}
     </div>
-
-    {% if site.topics %}
-      <div class="my-6">
-        {% include interests.html %}
-      </div>
-    {% endif %}
 
     {% unless posts_total == 0 %}
       <div class="my-6">
