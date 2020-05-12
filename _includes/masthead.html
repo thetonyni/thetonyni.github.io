@@ -1,5 +1,17 @@
 <!-- mast head == the LHS! -->
 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+</style>
+</head>
+<body>
+<div class="sticky">
+
 {% if site.layout == 'stacked' %}
   {% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
 {% else %}
@@ -60,3 +72,6 @@
     -->
   </div>
 {% endif %}
+
+</div>
+</body>
