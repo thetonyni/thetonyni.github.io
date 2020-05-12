@@ -2,24 +2,33 @@
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}"></p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
   <ul>
-     <p style = "margin-left: 30px; class="text-normal">
-
-        <emsp>I am an experienced research assistant and data visualization specialist 
-        with a strong record in research, statistical, and computer programming, 
-        especially in R and Python. My strengths include quantitative analysis, written 
-        communication, and public speaking. I thrive in both leadership and team roles, 
-        and I am thrilled to pursue data science-related opportunities for the spring of 2021.
-        <br>
-        <emsp>As an undergraduate, I also had the fantastic opportunity to be a student athlete
-        while dually pursuing my degree and writing an honors thesis. I've practiced and 
-        competed in taekwondo in Albania, China, South Korea, and the United States. 
-        This experience also gave me leadership and public speaking experience as a regular
-        instructor at the University of Michigan. My life as a student athlete has 
-        bettered my time management, oral communication, and work ethic, and I am excited 
-        to bring these skills to data science opportunities in the near term. 
+    {% for education in site.education %}
+      <li style = "margin-left: 30px;">
+        <p class="text-bold">{{ education.name }}</p>
+        <p class="text-normal">{{ education.position }}</p>
+        <p class="text-normal">{{ education.period }}</p>
         
-    </p>
+      </li>
+    {% endfor %}
   </ul>
 </div>
+
+<p style = "margin-left: 30px; class="text-normal">
+
+    <emsp>I am an experienced research assistant and data visualization specialist 
+    with a strong record in research, statistical, and computer programming, 
+    especially in R and Python. My strengths include quantitative analysis, written 
+    communication, and public speaking. I thrive in both leadership and team roles, 
+    and I am thrilled to pursue data science-related opportunities for the spring of 2021.
+    <br>
+    <emsp>As an undergraduate, I also had the fantastic opportunity to be a student athlete
+    while dually pursuing my degree and writing an honors thesis. I've practiced and 
+    competed in taekwondo in Albania, China, South Korea, and the United States. 
+    This experience also gave me leadership and public speaking experience as a regular
+    instructor at the University of Michigan. My life as a student athlete has 
+    bettered my time management, oral communication, and work ethic, and I am excited 
+    to bring these skills to data science opportunities in the near term. 
+    
+</p>
 
 <hr>
