@@ -30,6 +30,11 @@ projects:
       - VisualizingTheFuture2
       - VisualizingtheFuture.github.io
 
+about:
+  - name: Data Visualization Specialist
+    position: Clark Data Labs
+    period: October 2019 - April 2020
+
 works:
   - name: Data Visualization Specialist
     position: Clark Data Labs
@@ -57,7 +62,7 @@ education:
     position: Minor in Mathematics
     period: September 2016 - May 2020
 
-  - name: Beijing Language and Culture Institute
+  - name: Beijing Language and Culture Institute (北京语言大学)
     position: Study Abroad (Intensive Mandarin)
     period: August 2018 - December 2018
 
