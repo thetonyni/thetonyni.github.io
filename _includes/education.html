@@ -3,11 +3,12 @@
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
   <ul>
     {% for education in site.education %}
-      <li style = "margin-left: 30px;">
+    <p style = "margin-left: 25px; class="text-normal">
         <p class="text-bold">{{ education.name }}</p>
         <p class="text-normal">{{ education.position }}</p>
+        <p class="text-normal">{{ education.position2 }}</p>
         <p class="text-normal">{{ education.period }}</p>
-      </li>
+    </p>
     {% endfor %}
   </ul>
 </div>
