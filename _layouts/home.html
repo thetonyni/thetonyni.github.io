@@ -8,6 +8,12 @@
       {{ content }}
     </div>
 
+    {% if site.about %}
+    <div class="my-6">
+      {% include about.html %}
+    </div>
+  {% endif %}
+
     {% if site.works %}
       <div class="my-6">
         {% include works.html %}
@@ -61,6 +67,10 @@
             {{ content }}
           </div>
         {% endunless %}
+
+        {% if site.about %}
+          {% include about.html %}
+        {% endif %}
 
         {% if site.works %}
           {% include works.html %}
