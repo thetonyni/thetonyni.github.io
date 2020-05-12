@@ -1,7 +1,9 @@
+<!-- This changes a lot of the LHS-->
+
 {% if site.style == 'dark' %}
-  {% assign icon_color = "#0b77e3" %}
+  {% assign icon_color = "#ad115f" %}
 {% else %}
-  {% assign icon_color = "#0b77e3" %}
+  {% assign icon_color = "#ad115f" %}
 {% endif %}
 
 {% assign content = page.content %}
@@ -30,4 +32,4 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
   </head>
-  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #0b77e3 !important"{% endif %}>
+  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: black !important"{% endif %}>
