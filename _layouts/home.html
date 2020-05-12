@@ -72,6 +72,10 @@
           {% include about.html %}
         {% endif %}
 
+        {% if site.topics %}
+          {% include interests.html %}
+        {% endif %}
+
         {% if site.works %}
           {% include works.html %}
         {% endif %}
@@ -81,10 +85,6 @@
         {% endif %}
 
         {% include projects.html %}
-
-        {% if site.topics %}
-          {% include interests.html %}
-        {% endif %}
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
