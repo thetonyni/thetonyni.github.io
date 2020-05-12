@@ -31,6 +31,9 @@ projects:
       - VisualizingtheFuture.github.io
 
 about:
+  - name: University of Virginia School of Data Science
+    position: M.S. in Data Science
+    period: July 2020 - May 2021
 
 works:
   - name: Data Visualization Specialist
