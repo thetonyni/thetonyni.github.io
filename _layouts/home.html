@@ -8,15 +8,21 @@
       {{ content }}
     </div>
 
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
-
     {% if site.works %}
       <div class="my-6">
         {% include works.html %}
       </div>
     {% endif %}
+
+    {% if site.education %}
+      <div class="my-6">
+        {% include education.html %}
+      </div>
+    {% endif %}
+
+    <div class="my-6">
+      {% include projects.html %}
+    </div>
 
     {% if site.topics %}
       <div class="my-6">
@@ -56,11 +62,15 @@
           </div>
         {% endunless %}
 
-        {% include projects.html %}
-
         {% if site.works %}
           {% include works.html %}
         {% endif %}
+
+        {% if site.education %}
+          {% include education.html %}
+        {% endif %}
+
+        {% include projects.html %}
 
         {% if site.topics %}
           {% include interests.html %}

@@ -31,21 +31,35 @@ projects:
       - VisualizingtheFuture.github.io
 
 works:
-  - name: SONY
-    position: Part-time Machine Learning Researcher
-    period: 2018/11 - Present
+  - name: Data Visualization Specialist
+    position: Clark Data Labs
+    period: October 2019 - April 2020
 
-  - name: GHELIA
-    position: Part-time Machine Learning Researcher
-    period: 2018/04 - Present
+  - name: Research Assistant
+    position: University of Michigan Economics Department
+    period: October 2017 - December 2019
 
-  - name: Wantedly
-    position: Part-time Web Engineer (full stack) & Machine Learning Engineer
-    period: 2016/03 - 2018/03
+  - name: Grant Writing Intern
+    position: Ministry of Economic Development, Tourism, Trade & Entrepreneurship
+    period: June 2017 - August 2017 
 
-  - name: MatchinGood
-    position: Part-time Web Engineer (full stack)
-    period: 2014/10 - 2016/03
+  - name: Community Organization Intern
+    position: Clean Water Action
+    period: July 2016 - August 2016
+
+education:
+  - name: University of Virginia School of Data Science
+    position: M.S. in Data Science
+    period: July 2020 - May 2021
+
+  - name: University of Michigan
+    position: B.S. in Economics with Honors
+    position: Minor in Mathematics
+    period: September 2016 - May 2020
+
+  - name: Beijing Language and Culture Institute
+    position: Study Abroad (Intensive Mandarin)
+    period: August 2018 - December 2018
 
 topics:
 
