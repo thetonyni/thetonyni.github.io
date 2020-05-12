@@ -2,9 +2,9 @@
 
 <!-- if given a web url-->
 {% if topic.web_url %}
-  <a href="{{ topic.web_url }}" class="github-component position-relative no-underline d-flex flex-column hover-grow height-full ">
+  <a href="{{ topic.web_url }}">
     {% if topic.image_url %}
-      <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
+      <img src="{{ topic.image_url }}" width="64" height="64"">
     {% else %}
       <div>
         #
