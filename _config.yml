@@ -30,6 +30,8 @@ projects:
       - VisualizingTheFuture2
       - VisualizingtheFuture.github.io
 
+about:
+
 works:
   - name: Data Visualization Specialist
     position: Clark Data Labs
@@ -62,7 +64,6 @@ education:
     period: August 2018 - December 2018
 
 topics:
-
   - name: R
     web_url: https://github.com/topics/R
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/r/r.png
