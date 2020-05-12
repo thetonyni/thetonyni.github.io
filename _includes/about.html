@@ -2,11 +2,11 @@
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}"></p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
   <ul>
-    {% for education in site.education %}
+    {% for about in site.about %}
       <li style = "margin-left: 30px;">
-        <p class="text-bold">{{ education.name }}</p>
-        <p class="text-normal">{{ education.position }}</p>
-        <p class="text-normal">{{ education.period }}</p>
+        <p class="text-bold">{{ about.name }}</p>
+        <p class="text-normal">{{ about.position }}</p>
+        <p class="text-normal">{{ about.period }}</p>
         
       </li>
     {% endfor %}
