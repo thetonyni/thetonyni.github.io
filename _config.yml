@@ -30,11 +30,6 @@ projects:
       - VisualizingTheFuture2
       - VisualizingtheFuture.github.io
 
-about:
-  - name: University of Virginia School of Data Science
-    position: M.S. in Data Science
-    period: July 2020 - May 2021
-
 works:
   - name: Data Visualization Specialist
     position: Clark Data Labs
@@ -53,11 +48,11 @@ works:
     period: July 2016 - August 2016
 
 education:
-  - name: University of Virginia School of Data Science
+  - name: University of Virginia, School of Data Science
     position: M.S. in Data Science
     period: July 2020 - May 2021
 
-  - name: University of Michigan
+  - name: University of Michigan, College of Literature, Science, and the Arts
     position: B.S. in Economics with Honors
     position: Minor in Mathematics
     period: September 2016 - May 2020
