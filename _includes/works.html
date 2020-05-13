@@ -1,5 +1,5 @@
-<h2 id="Experience" {% if site.style == 'dark' %}class="text-white"{% endif %}>Work Experience 💼</h2>
-<p class="f4 mb-4" style="color: rgb(255, 250, 255)">#thehustle</p>
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Work Experience 💼</h2>
+<p style = "margin: 0 0 0 0;" class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">#sleepless #nights</p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
   <ul>
     {% for work in site.works %}
@@ -20,3 +20,4 @@
 <br>
 <div id="Projects" style = "margin: 0px; padding: 0px; color:rgb(255, 250, 255);" >_</div>
 <hr>
+
