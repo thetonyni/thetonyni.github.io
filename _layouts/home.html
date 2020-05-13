@@ -53,6 +53,13 @@
         {% include awards.html %}
       </div>
     {% endif %}
+
+    {% if site.ending %}
+    <div class="my-6">
+      {% include ending.html %}
+    </div>
+  {% endif %}
+
   </div>
 {% else %}
 
@@ -103,6 +110,11 @@
         {% if site.awards %}
           {% include awards.html %}
         {% endif %}
+
+        {% if site.ending %}
+        {% include ending.html %}
+      {% endif %}
+
       </div>
     </div>
   </div>
