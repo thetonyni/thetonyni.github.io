@@ -4,118 +4,138 @@ style: light
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
-  - jemoji
 
 permalink: /:year/:month/:day/:title/
 
 defaults:
   -
-    scope: 
+    scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: false
-    projects:
-      - amawest.github.io
-      - VisualizingTheFuture2
-      - VisualizingtheFuture.github.io
-
-about:
-  - name: Data 
-    position: C
-    period: O
-
-ending:
-  - name: Data 
-    position: C
-    period: O
-
-works:
-  - name: Data Visualization Specialist
-    position: • Ann Arbor, Michigan
-    position2: Clark Data Labs
-    period: October 2019 - April 2020
-
-  - name: Research Assistant
-    position: • Ann Arbor, Michigan
-    position2: University of Michigan Economics Department
-    period: October 2017 - December 2019
-
-  - name: Grant Writing Intern
-    position: • Tirana, Albania
-    position2: Ministry of Economic Development, Tourism, Trade & Entrepreneurship
-    period: June 2017 - August 2017 
-
-  - name: Community Organization Intern
-    position: • Ann Arbor, Michigan
-    position2: Clean Water Action
-    period: July 2016 - August 2016
-
-education:
-  - name: University of Virginia, School of Data Science
-    position: M.S. in Data Science
-    period: July 2020 - May 2021
-
-  - name: University of Michigan, College of Literature, Science, and the Arts
-    position: B.S. in Economics with Honors •  Minor in Mathematics
-    position2: Playing by the Rules; How had the TRIPS Agreement Affected IP Adherence? (thesis)
-    period: September 2016 - May 2020
-
-  - name: Beijing Language and Culture Institute (北京语言大学)
-    position: Study Abroad (Intensive Mandarin)
-    period: August 2018 - December 2018
+  - owner:
+      login: takuseno
+    name: mvc-drl
+    description: Cleanest deep reinforcement learning implementation based on Web MVC architecture with complete unit testings
+    stargazers_count: 8
+    forks_count: 1
+  - owner:
+      login: takuseno
+    name: ppo
+    description: Proximal Policy Optimization implementation with TensorFlow
+    stargazers_count: 67
+    forks_count: 17
+  - owner:
+      login: sony
+    name: nnabla
+    description: Neural Network Libraries
+    stargazers_count: 2.3k
+    forks_count: 273
+  - owner:
+      login: takuseno
+    name: nnabla-drl-collections
+    description: Single file deep reinforcement learning implementations written in NNabla
+    stargazers_count: 2
+    forks_count: 0
+  - owner:
+      login: takuseno
+    name: cpp-dqn
+    description: Blazingly Fast Implementation of Deep Q-Network in C++ with NNabla
+    stargazers_count: 1
+    forks_count: 0
+  - owner:
+      login: sony
+    name: nnabla-ext-cuda
+    description: A CUDA Extension of Neural Network Libraries
+    stargazers_count: 71
+    forks_count: 22
 
 topics:
-  - name: R
-    web_url: https://github.com/topics/R
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/r/r.png
+  - name: TensorFlow
+    web_url: https://github.com/topics/tensorflow 
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/tensorflow/tensorflow.png
 
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
 
-  - name: C++
-    web_url: https://github.com/topics/cpp
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/cpp/cpp.png
-
-  - name: HTML
-    web_url: https://github.com/topics/HTML
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
-
-  - name: CSS
-    web_url: https://github.com/topics/CSS
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Ruby on Rails
+    web_url: https://github.com/topics/rails
+    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/rails/rails.png
 
   - name: JavaScript
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
-social_media:
-  facebook: amanda.west.148553
-  linkedin: amanda-west-a33260131/
-  instagram: a_west213 
-  medium: amawest
-  stackoverflow: 13520207
-  # behance: your_username
-  # dribbble: your_username
-  # hackerrank: your_username
-  # keybase: your_username
-  # mastodon: your_username
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
 
+  - name: Linux
+    web_url: https://github.com/topics/linux
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
 
+  - name: PHP
+    web_url: https://github.com/topics/php
+    image_url: https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png
+
+  - name: Android
+    web_url: https://github.com/topics/android
+    image_url: https://raw.githubusercontent.com/github/explore/a3520d60fbf9b0bdd0b7d563a1a3ed596acd8489/topics/android/android.png
+
+  - name: Docker
+    web_url: https://github.com/topics/docker
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/docker/docker.png
+
+  - name: AWS
+    web_url: https://github.com/topics/aws
+    image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png
+
+  - name: C
+    web_url: https://github.com/topics/c
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/c/c.png
+
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
+
+  - name: Git
+    web_url: https://github.com/topics/git
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/git/git.png
+
+works:
+  - name: SONY
+    position: Part-time Machine Learning Researcher
+    period: 2018/11 - Present
+
+  - name: GHELIA
+    position: Part-time Machine Learning Researcher
+    period: 2018/04 - Present
+
+  - name: Wantedly
+    position: Part-time Web Engineer (full stack) & Machine Learning Engineer
+    period: 2016/03 - 2018/03
+
+  - name: MatchinGood
+    position: Part-time Web Engineer (full stack)
+    period: 2014/10 - 2016/03
+
+papers:
+  - title: Takuma Seno, Kohei Okuoka, Masahiko Osawa, Michita Imai, "Adaptive Semi-autonomous Agents via Episodic Control", 6th International Conference on Human-Agent Interaction (Poster), 2018
+  - title: Takuma Seno, Masahiko Osawa, Michita Imai, "An Intrinsically Motivated Robot Explores Non-reward Environments With Output Arbitration", Annual International Conference on Biologically Inspired Cognitive Architectures, 2018
+  - title: Masahiko Osawa, Yuta Ashihara, Takuma Seno, Michita Imai, Satoshi Kurihara, Accumulator Based Arbitration Model for both Supervised Learning and Reinforcement Learning Inspired by Prefrontal Cortex, ICONIP2017.
+
+awards:
+  - title: Best Presentation Award at the 29th Japanese Neural Network Society in Tokyo.
+    date: 2019/9
+  - title: Outstanding & AGI Prize at the forth Whole Brain Architecture Hackathon in Tokyo.
+    date: 2018/10
+  - title: Outstanding Student Prize at 80th Annual Conference of Information Processing Society of Japan in Tokyo.
+    date: 2018/03
+  - title: Outstanding Student Prize at Human-Agent Interaction Symposium for our research "Relation Between Predictive Cognition and Timing; Non-natural Language Communication Robot and Language Game" in Kanazawa.
+    date: 2017/12
+  - title: Grand Prize at the third Whole Brain Architecture Hackathon in Tokyo.
+    date: 2017/8
