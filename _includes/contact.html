@@ -1,8 +1,32 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Contact 📝</h2>
-    <p style = "margin-left: 25px;" class= "text-normal">
-    If you think I would be a good fit for your company, want to grab a coffee, 
-    or just want to drop tips on future travel destinations, you can reach me
-    at <b>amawest@umich.edu</b>. Looking forward to our chat!
-    </p>
+<h2 class="text-white">Contact 📝</h2>
+
+<p class="f4 mb-4 text-white">Fill this form and I'll email you back quickly.</p>
+
+<form method="post" action="https://formspree.io/brendan.le-glaunec@epitech.eu">
+  <div class="wrapper">
+    <div class="input-wrapper">
+      <div class="input input-text">
+        <input type="text" name="name" id="name" placeholder="Name" />
+      </div>
+    </div>
+    <div class="input-wrapper">
+      <div class="input input-email">
+        <input type="email" name="_replyto" id="email" placeholder="Email" />
+      </div>
+    </div>
+    <div class="input-wrapper">
+      <div class="input input-message">
+        <textarea name="message" id="message" placeholder="Message" cols="30" rows="5"></textarea>
+      </div>
+      <button type="submit">
+        {% octicon arrow-right height:30 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      </button>
+    </div>
+  </div>
+</form>
+
+<div class="clippy">
+  <a href="https://www.google.com/maps/@-77.6372771,166.4194445,3a,90y,189.68h,98.34t/data=!3m8!1e1!3m6!1sAF1QipOeGF1vSQE_RDiYdFJe0vNqaUCTcPnoITfBg-vd!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOeGF1vSQE_RDiYdFJe0vNqaUCTcPnoITfBg-vd%3Dw203-h100-k-no-pi-0-ya143.50002-ro-0-fo100!7i8704!8i4352"></a>
+</div>
 
 <hr>
