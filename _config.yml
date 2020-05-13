@@ -101,11 +101,11 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
 social_media:
-  facebook: amanda.west.148553
-  linkedin: amanda-west-a33260131/
-  instagram: a_west213 
   medium: amawest
   stackoverflow: 13520207
+  linkedin: amanda-west-a33260131/
+  # facebook: amanda.west.148553
+  # instagram: a_west213 
   # behance: your_username
   # dribbble: your_username
   # hackerrank: your_username
