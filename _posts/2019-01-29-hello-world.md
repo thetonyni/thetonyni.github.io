@@ -1,5 +1,3 @@
-<!-- Unused, currently, but nice that it's already configured. -->
-
 ---
 title: "Welcome to Jekyll!"
 published: false
