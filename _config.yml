@@ -31,12 +31,17 @@ projects:
       - VisualizingtheFuture.github.io
 
 about:
-  - name: Data 
+  - name: D
     position: C
     period: O
 
 ending:
-  - name: Data 
+  - name: D
+    position: C
+    period: O
+
+contact:
+  - name: D
     position: C
     period: O
 

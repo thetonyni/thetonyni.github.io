@@ -54,6 +54,12 @@
       </div>
     {% endif %}
 
+    {% if site.contact %}
+    <div class="my-6">
+      {% include contact.html %}
+    </div>
+  {% endif %}
+
     {% if site.ending %}
     <div class="my-6">
       {% include ending.html %}
@@ -110,6 +116,10 @@
         {% if site.awards %}
           {% include awards.html %}
         {% endif %}
+
+        {% if site.contact %}
+          {% include contact.html %}
+      {% endif %}
 
         {% if site.ending %}
         {% include ending.html %}
