@@ -1,7 +1,7 @@
 layout: sidebar
 style: light
 
-plugins:
+plugins: 
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
