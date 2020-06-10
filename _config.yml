@@ -118,7 +118,6 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
 social_media:
-  #medium: amawest
   #stackoverflow: 13520207
   linkedin: amanda-west-a33260131/
   # facebook: amanda.west.148553
@@ -130,6 +129,7 @@ social_media:
   # mastodon: your_username
   # telegram: your_username
   twitter: amawest_
+  medium: amawest
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
