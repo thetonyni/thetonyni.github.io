@@ -68,18 +68,24 @@ works:
 
 
 education:
-  - name: University of Virginia, School of Data Science
+  - name: University of Virginia, School of Data Science • Charlottesville, Virginia
     position: M.S. Candidate in Data Science
     period: July 2020 - May 2021
 
-  - name: University of Michigan, College of Literature, Science, and the Arts
+  - name: Beijing Language and Culture University (北京语言大学) • Beijing, PRC
+    position: Certificate in Intensive Mandarin
+    period: September 2018 - December 2018
+
+  - name: University of Michigan, College of Literature, Science, and the Arts • Ann Arbor, Michigan
     position: B.S. in Economics with Honors •  Minor in Mathematics
     position2: Undergraduate Thesis; Playing by the Rules; How had the TRIPS Agreement Affected IP Adherence?
     period: September 2016 - May 2020
-
-  - name: Beijing Language and Culture University (北京语言大学)
-    position: Certificate in Intensive Mandarin
+  
+  - name: Delton Kellogg High School • Delton, Michigan
+    position: High School Diploma
     period: September 2018 - December 2018
+  
+
 
 topics:
   - name: R
