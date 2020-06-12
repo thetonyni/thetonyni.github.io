@@ -23,7 +23,7 @@ projects:
   #   - stars
   limit: 9 
   exclude:
-    archived: false
+    archived: false 
     forks: false
     projects:
       - amawest.github.io
