@@ -26,7 +26,6 @@ projects:
     archived: false 
     forks: false
     projects: 
-      - amawest.github.io
       - VisualizingTheFuture2
       - VisualizingtheFuture.github.io
       - visualizations
