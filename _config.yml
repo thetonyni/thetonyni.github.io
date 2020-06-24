@@ -29,6 +29,7 @@ projects:
       - VisualizingTheFuture2
       - VisualizingtheFuture.github.io
       - visualizations
+      - intro-to-flexdashboard
   
 about:
   - name: D
