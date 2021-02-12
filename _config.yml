@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -26,10 +26,8 @@ projects:
     archived: false 
     forks: false
     projects: 
-      - VisualizingTheFuture2
-      - VisualizingtheFuture.github.io
-      - visualizations
-      - intro-to-flexdashboard
+      - thetonyni.github.io
+      - COVID-19
   
 about:
   - name: D
@@ -47,52 +45,36 @@ contact:
     period: O
 
 works:
-  - name: Data Visualization Specialist
-    position: • Ann Arbor, Michigan
-    position2: Clark Data Labs
-    period: October 2019 - April 2020
-
-  - name: Research Assistant
-    position: • Ann Arbor, Michigan
-    position2: University of Michigan Economics Department
-    period: October 2017 - December 2019
-
-  - name: Lead Instructor, Vice President 
-    position: • Ann Arbor, Michigan
-    position2: University of Michigan Taekwondo Club
-    period: September 2018 - March 2020
-
-  - name: Grant Writing Intern
-    position: • Tirana, Albania
-    position2: Ministry of Economic Development, Tourism, Trade & Entrepreneurship
-    period: June 2017 - August 2017
-
-  - name: Community Organization Intern
-    position: • Ann Arbor, Michigan
-    position2: Clean Water Action
-    period: July 2016 - August 2016
-
+  - name: Research Intern
+    position: • Amherst, MA
+    position2: Amherst College, Mathematics and Statistics Department
+    period: August 2019 - Present
+    
+  - name: Summer Research Intern
+    position: • Boston, MA
+    position2: Harvard University, Program in Biostatistics & Computational Biology
+    period: May 2020 - July 2020
+    
+  - name: SURF Intern
+    position: • Amherst, MA
+    position2: Amherst College, Mathematics and Statistics Department
+    period: June 2019 - March 2020
+     
+  - name: Mentor
+    position: • Amherst, MA
+    position2: Reader to Reader
+    period: August 2017 - August 2019
 
 education:
-  - name: University of Virginia, School of Data Science • Charlottesville, Virginia
-    position: M.S. Candidate in Data Science
-    period: July 2020 - May 2021
-
-  - name: Beijing Language and Culture University (北京语言大学) • Beijing, PRC
-    position: Certificate in Intensive Mandarin
-    period: September 2018 - December 2018
-
-  - name: University of Michigan, College of Literature, Science, and the Arts • Ann Arbor, Michigan
-    position: B.S. in Economics with High Honors •  Minor in Mathematics
-    position2: Undergraduate Thesis - Playing by the Rules; How had the TRIPS Agreement Affected IP Adherence?
-    period: September 2016 - May 2020
+  - name: Amherst College • Amherst, MA
+    position: B.A. in Computer Science and B.A. in Statistics
+    position2: Undergraduate Statistics Thesis - Evaluation of Methods to Handle Left-Censored Data
+    period: September 2017 - Expected May 2021
   
-  - name: Delton Kellogg High School • Delton, Michigan
+  - name: Glenwood High School • Chatham, Illinois
     position: High School Diploma
-    period: September 2012 - May 2016
+    period: August 2013 - May 2017
   
-
-
 topics:
   - name: R
     web_url: https://github.com/topics/R
@@ -105,32 +87,24 @@ topics:
   - name: SQL
     web_url: https://github.com/topics/sql
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
-
-  - name: HTML
-    web_url: https://github.com/topics/HTML
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
-
-  - name: CSS
-    web_url: https://github.com/topics/CSS
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: JavaScript
-    web_url: https://github.com/topics/javascript
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+    
+  - name: Java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
 
 social_media:
-  #stackoverflow: 13520207
-  linkedin: amanda-west-a33260131/
-  # facebook: amanda.west.148553
-  # instagram: a_west213 
+  #stackoverflow: 
+  linkedin: tonyni07271999
+  # facebook: 
+  # instagram: 
   # behance: your_username
   # dribbble: your_username
   # hackerrank: your_username
   # keybase: your_username
   # mastodon: your_username
   # telegram: your_username
-  twitter: amawest_
-  medium: amawest
+  # twitter: 
+  # medium: 
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
