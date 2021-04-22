@@ -68,7 +68,7 @@ works:
 education:
   - name: Amherst College • Amherst, MA
     position: B.A. in Computer Science and B.A. in Statistics
-    position2: Undergraduate Statistics Thesis - Evaluation of Methods to Handle Left-Censored Data
+    position2: Undergraduate Statistics Thesis - Evaluation of Parameter Estimation Methods to Handle Left-Censored Missingness
     period: September 2017 - Expected May 2021
   
   - name: Glenwood High School • Chatham, Illinois
