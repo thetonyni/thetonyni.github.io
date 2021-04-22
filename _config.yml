@@ -28,6 +28,8 @@ projects:
     projects: 
       - thetonyni.github.io
       - COVID-19
+      - Chyrons
+      - QuicksortProject
   
 about:
   - name: D
